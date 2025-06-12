@@ -1,0 +1,13 @@
+---
+version: 1.3.1
+title: The hero section contains a relevant slogan
+file: ./test/view/index_test.gleam
+test_name: index_slogan_test
+---
+Selector: `.hero-content p`
+
+```html
+<p class="py-6">
+  Accelerating tomorrows disruptive Unicorns through AI-powered innovation ecosystems and next-gen growth hacking solutions!
+</p>
+```

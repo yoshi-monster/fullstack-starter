@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "gleam.gleam",
+        "svelte.svelte-vscode",
+        "bradlc.vscode-tailwindcss"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "workspaces": [
+        "client",
+        "server",
+        "shared"
+    ],
+
+    "scripts": {
+        "test": "yarn workspaces foreach --all gleam test"
+    }
+}

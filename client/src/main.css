@@ -1,0 +1,10 @@
+@import '@xyflow/svelte/dist/style.css';
+
+@layer base {
+    svelte-flow {
+        all: initial;
+    }
+}
+
+@import "tailwindcss" source("../../");
+@plugin "daisyui";

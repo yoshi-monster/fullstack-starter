@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.includeLanguages": {
+        "gleam": "javascript",
+    },
+    "tailwindCSS.experimental.classRegex": [
+        "class\\(\\s*[\\r\\n]?\\s*\"([^\"]*)\",?\\s*[\\r\\n]?\\s*\\)",
+        "class\\(\\s*['\"]([^'\"]*)['\"]\\s*\\)",
+        "#?\\(\\s*['\"]([^'\"]*)['\"]\\s*,\\s*[^\\)]*\\)"
+    ],
+    "tailwindCSS.experimental.configFile": "./client/src/main.css",
+    "[gleam]": {
+        "editor.formatOnSave": true
+    }
+}
