@@ -1,13 +1,11 @@
 ---
 version: 1.3.1
 title: The contact form has to contain a Send button
-file: ./test/pages/contact_test.gleam
-test_name: contact_contains_a_send_button_test
 ---
 Selector: `form .btn-primary`
 
 ```html
 <button class="ml-auto mt-16 btn btn-primary">
-  Send!
+  Hit me up!
 </button>
 ```

@@ -7,7 +7,6 @@
 		return class extends svelteCustomElementClass {
 			constructor() {
 				super()
-				console.log(this)
 			}
 		}
 	},

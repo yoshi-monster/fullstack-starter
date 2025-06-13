@@ -36,7 +36,6 @@ pub fn html(
       },
       //
       entry_point(ctx, "src/main.css"),
-      entry_point(ctx, "src/shoelace.ts"),
       //
       ..head
     ]),
@@ -67,6 +66,7 @@ pub fn entry_point(context: Context, name: String) -> Element(msg) {
 
       element.fragment({
         use entry_point_file <- list.map(entry_point_files)
+        let entry_point_file = "/" <> entry_point_file
 
         case filepath.extension(entry_point_file) {
           Ok("css") ->

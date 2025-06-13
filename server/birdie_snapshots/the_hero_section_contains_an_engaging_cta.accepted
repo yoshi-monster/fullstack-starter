@@ -1,7 +1,7 @@
 ---
 version: 1.3.1
 title: The hero section contains an engaging CTA
-file: ./test/view/index_test.gleam
+file: ./test/pages/index_test.gleam
 test_name: index_cta_test
 ---
 Selector: `.hero-content .btn-primary`
